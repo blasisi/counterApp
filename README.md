@@ -10,4 +10,4 @@ So, the parts are:
 -Reset the counter.
 
 
-Link: https://app.netlify.com/sites/clockcounterapp/settings/general
+Link: https://clockcounterapp.netlify.app/
