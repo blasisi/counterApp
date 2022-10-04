@@ -1,0 +1,58 @@
+body {
+    background-color: bisque;
+    background:lightblue url("https://m.media-amazon.com/images/I/7152vganOKL._AC_SL1200_.jpg");
+    text-align: center;
+}
+
+h1 {
+
+    margin: 20px 0px;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* text-align:center; */
+    /* border-radius: 5px; */
+}
+
+.count {
+    font-size: 75px;
+    font-weight: bold;
+    color: pink;
+    background-color: black;
+    justify-content: center;
+    border: 2px solid plum;
+    margin-top: 30px;
+    border-radius: 120%;
+}
+
+.btn {
+    margin-top: 30px;
+
+
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.btn:active {
+    box-shadow: 3px 2px 20px 1px rgba(rgb(54, 18, 18), green, blue, alpha);
+    transform: scale(0.88);
+}
+
+.counter-div {
+    width: 40rem;
+    border: 4px 0 solid black;
+    padding: 3rem;
+    background-color: brown;
+    color-scheme: rgb(148, 104, 191);
+}
+
