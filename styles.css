@@ -1,6 +1,5 @@
 body {
-    background-color: bisque;
-    background:lightblue url("https://m.media-amazon.com/images/I/7152vganOKL._AC_SL1200_.jpg");
+    background: bisque url("https://m.media-amazon.com/images/I/7152vganOKL._AC_SL1200_.jpg") no-repeat fixed center;
     text-align: center;
 }
 
@@ -22,7 +21,7 @@ h1 {
     /* border-radius: 5px; */
 }
 
-.count {
+#count {
     font-size: 75px;
     font-weight: bold;
     color: pink;
@@ -35,7 +34,8 @@ h1 {
 
 .btn {
     margin-top: 30px;
-
+    padding: 2rem;
+    font-size: 1.5rem;
 
 }
 
@@ -49,10 +49,22 @@ h1 {
 }
 
 .counter-div {
-    width: 40rem;
+    width: 30rem;
     border: 4px 0 solid black;
     padding: 3rem;
-    background-color: brown;
+    background: bisque url("https://m.media-amazon.com/images/I/7152vganOKL._AC_SL1200_.jpg") no-repeat fixed center;
     color-scheme: rgb(148, 104, 191);
 }
 
+/* .Increment{
+background-color: brown;
+}
+
+.Reset{
+    background-color: teal;
+}
+
+.Decrement{
+
+    background-color: brown;
+    } */
